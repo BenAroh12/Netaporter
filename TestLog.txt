@@ -1,0 +1,207 @@
+[0.662][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platform": "ANY",
+         "version": ""
+      },
+      "requiredCapabilities": {
+
+      }
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[0.722][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.732][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.777][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-browser-side-navigation --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\ben\AppData\Local\Temp\scoped_dir5944_31553\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12248 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ben\AppData\Local\Temp\scoped_dir5944_27273" data:,
+[1.695][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[3.173][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)",
+      "userDataDir": "C:\\Users\\ben\\AppData\\Local\\Temp\\scoped_dir5944_27273"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "takesHeapSnapshot": true,
+   "~~~": "..."
+}
+[3.302][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "implicit"
+}
+[3.302][INFO]: RESPONSE SetTimeout
+[3.606][INFO]: COMMAND DeleteAllCookies {
+
+}
+[3.606][INFO]: Waiting for pending navigations...
+[3.606][INFO]: Done waiting for pending navigations. Status: ok
+[7.887][INFO]: Waiting for pending navigations...
+[7.897][INFO]: Done waiting for pending navigations. Status: ok
+[7.897][INFO]: RESPONSE DeleteAllCookies
+[7.907][INFO]: COMMAND Navigate {
+   "url": "https://www.net-a-porter.com"
+}
+[7.907][INFO]: Waiting for pending navigations...
+[7.907][INFO]: Done waiting for pending navigations. Status: ok
+[8.656][INFO]: Waiting for pending navigations...
+[17.344][INFO]: Done waiting for pending navigations. Status: ok
+[17.344][INFO]: RESPONSE Navigate
+[17.594][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > div.sf-wrapper > div > header > a > h1"
+}
+[17.594][INFO]: Waiting for pending navigations...
+[17.642][INFO]: Done waiting for pending navigations. Status: ok
+[17.783][INFO]: Waiting for pending navigations...
+[17.851][INFO]: Done waiting for pending navigations. Status: ok
+[17.851][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7399131376737915-1"
+}
+[17.963][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7399131376737915-1"
+}
+[17.964][INFO]: Waiting for pending navigations...
+[18.185][INFO]: Done waiting for pending navigations. Status: ok
+[18.349][INFO]: Waiting for pending navigations...
+[21.873][INFO]: Done waiting for pending navigations. Status: ok
+[21.873][INFO]: RESPONSE IsElementDisplayed true
+[21.897][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > div.sf-wrapper > div > nav > ul > li:nth-child(10) > a"
+}
+[21.897][INFO]: Waiting for pending navigations...
+[21.981][INFO]: Done waiting for pending navigations. Status: ok
+[22.067][INFO]: Waiting for pending navigations...
+[22.127][INFO]: Done waiting for pending navigations. Status: ok
+[22.127][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7399131376737915-2"
+}
+[22.143][INFO]: COMMAND ClickElement {
+   "id": "0.7399131376737915-2"
+}
+[22.143][INFO]: Waiting for pending navigations...
+[22.160][INFO]: Done waiting for pending navigations. Status: ok
+[22.905][INFO]: Waiting for pending navigations...
+[40.978][INFO]: Done waiting for pending navigations. Status: ok
+[40.978][INFO]: RESPONSE ClickElement
+[41.012][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "#subnav > li.Haircare > a > span"
+}
+[41.012][INFO]: Waiting for pending navigations...
+[41.014][INFO]: Done waiting for pending navigations. Status: ok
+[41.046][INFO]: Waiting for pending navigations...
+[41.049][INFO]: Done waiting for pending navigations. Status: ok
+[41.049][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7442677196132588-1"
+}
+[41.057][INFO]: COMMAND ClickElement {
+   "id": "0.7442677196132588-1"
+}
+[41.058][INFO]: Waiting for pending navigations...
+[41.064][INFO]: Done waiting for pending navigations. Status: ok
+[41.277][INFO]: Waiting for pending navigations...
+[45.768][INFO]: Done waiting for pending navigations. Status: ok
+[45.768][INFO]: RESPONSE ClickElement
+[45.795][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "#button > div > div"
+}
+[45.795][INFO]: Waiting for pending navigations...
+[49.904][INFO]: Done waiting for pending navigations. Status: ok
+[79.956][INFO]: Waiting for pending navigations...
+[79.958][INFO]: Done waiting for pending navigations. Status: ok
+[79.958][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"css selector","selector":"#button > div > div"}
+  (Session info: chrome=63.0.3239.84)
